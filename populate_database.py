@@ -1,15 +1,21 @@
 import argparse
 import os
 import shutil
+# Choose based on which type of doc we are loading
 from langchain.document_loaders.pdf import PyPDFDirectoryLoader
+from langchain.document_loaders.csv_loader import CSVLoader
+
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.schema.document import Document
 from get_embedding_function import get_embedding_function
 from langchain.vectorstores.chroma import Chroma
 
+# To time how long each operation takes
+import time
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "data"
+CSV_PATH = "C:/Users/samir/Documents/Fmxl/rag-tutorial-v2/data/tiga_cases.csv"
 
 
 def main():
@@ -23,13 +29,16 @@ def main():
         clear_database()
 
     # Create (or update) the data store.
+    start_time = time.time()
     documents = load_documents()
     chunks = split_documents(documents)
     add_to_chroma(chunks)
+    print(print("--- %s seconds --- to create or update data store" % (time.time() - start_time)))
 
 
 def load_documents():
-    document_loader = PyPDFDirectoryLoader(DATA_PATH)
+    # document_loader = PyPDFDirectoryLoader(DATA_PATH)
+    document_loader = CSVLoader(file_path="data/tiga_cases_test.csv", source_column="Number", encoding="UTF-8")
     return document_loader.load()
 
 

@@ -1,0 +1,130 @@
+Number,Subject,Date Opened,Account,Product Family,Product,Case History
+49488,SHG images look like UV-TPEF images,2024-05-13,Hauptman-Woodward Medical Research Institute (HWI),Rock Imager 1000,RI1000-0436,"
+***********************************************************************
+[2024.5.13  Safdar Haider logged 0.3 hours (Remote)]
+The ""SHG Imaging"" settings had ""UV-TPEF"" sensor selected. It seems it had been selected by mistake for some reason.
+Changed it to ""SHG"". Imaged the user plate to make sure the images looked like SHG images.
+Sent update to Sarah.
+
+"
+49487,License Required,2024-05-13,Formulatrix / Ryan Faucher,FAST,FAST-V1-00055,
+49486,Channels Freezing Before Pickup Tips,2024-05-13,MIT Bathe,FLO,FLO-00021,
+49485,Loaner Check,2024-05-13,Formulatrix USA / Loaners,Mantis,Mantis-1251,"
+***********************************************************************
+[2024.5.13  Beni Anggoro Setiyawan logged 2.5 hours (Remote)]
+Performed loaner return check per technical documentation.
+
+Cleaned and lubed instrument.
+
+Performed all alignments, tuning and setups.
+
+Verified all system operations to be functional.
+
+Performed the gravimetric volume test with the following passing results:
+Large diaphragm: -2.375%
+Small diaphragm: 1.09375%
+CF : 0.72%
+
+Instrument is operational.
+
+"
+49484,Failed solenoid check,2024-05-13,University Health Network (UHN) Notta Lab - LH,Mantis,Mantis-1458,"
+***********************************************************************
+[2024.5.13  Izaz Ahmad logged 0.5 hours (Remote)]
+Created case, analyzed the issue, composed email, added conversation link, entry on TIGA
+
+"
+49483,Griding noise and uneven volume dispensing,2024-05-13,Incyte Corporation PC,Formulator 16,Formulator-0149,
+49482,Pump Box Installation (Waiting on PO),2024-05-13,BMS Cambridge,,,
+49481,Annual saftey training,2024-05-13,Pfizer Groton PC,Rock Imager 1000,RI1000-0423,"
+***********************************************************************
+[2024.5.13  Safdar Haider logged 2 hours (Remote)]
+Completed online annual site safety training.
+
+"
+49480,"RI360 PSR crashed, restarting it makes it stuck on diagnostics",2024-05-13,Merck Boston PC,Rock Imager 360,RI360-1-00008,"
+***********************************************************************
+[2024.5.13  Ahmad Hasan logged 0.5 hours (Remote)]
+Safdar received email from Merck team saying that plate was stuck halfway between PSR and imager module arm. They tried restarting the imager services twice, but the UI is stuck on diagnostics.
+
+I emailed them asking for the log files. They replied with the log files and expressed grievance with how it has been over a month now and they cannot use the imager for more than '24-48 hours without a crash event occurring'. 
+
+Looking at the log files, Formulatrix Integration Services (FIS) does not appear to be running, which could be the reason why the UI is stuck on the diagnostics screen. Will need to visit on site ASAP, especially since getting remote access/scheduling zoom call for remote access is tricky.
+
+"
+49479,Failed Regulator Check,2024-05-13,Agenus,Mantis,Mantis-0597,"
+***********************************************************************
+[2024.5.13  Mubin Athar logged 0.15 hours (Remote)]
+Created the case.
+
+
+***********************************************************************
+[2024.5.13  Mubin Athar logged 0.3 hours (Remote)]
+I have reviewed the knowledge base, gathered the information, drafted an email, and sent it to the customer. In the email, I asked whether the issue persists with the CF chip or HV/LV only. Additionally, I requested the customer to perform a pneumatic check.
+
+
+***********************************************************************
+[2024.5.13  Muhammad Haider Farooq Khan logged 0.2 hours (Remote)]
+Conv. link was not there. Updated link.
+
+"
+49478,PM (waiting on PO),2024-05-13,Tessera Therapeutics,Mantis,Mantis-1577,
+49477,Prepare Unit for Demo,2024-05-10,Formulatrix / Peter Guthrie,Mantis,MA-4-00034,"
+***********************************************************************
+[2024.5.10  Beni Anggoro Setiyawan logged 2.5 hours (Remote)]
+Sometimes fail to pickup and drop off chip at ACC #2
+Found the dowel pin is to tall so the white delrin part can't assembled properly.
+Corrective action fix the dowel pin.
+
+Update the software to the latest version.
+
+Performed all alignments, tuning and setups.
+
+Verified the QC Station is work.
+
+Cleaned the instrument prior to shipping.
+
+Completing the accessories kit.
+
+The instrument is operational.
+
+"
+49476,Parts Replacement Related to PM Case #46546,2024-05-09,GSK Chesterman FLT,µPulse,µPulse-00275,"
+***********************************************************************
+[2024.5.9  Beni Anggoro Setiyawan logged 0.75 hours (Remote)]
+Replace parts whose damage is discovered during PM
+- Bottle sensor board
+- Bottle sensor cable
+
+Check the device after replacement parts
+- Bottle sensor is functional.
+
+"
+49475,diagnostic error: Motor:LoadPort is off by:-0.2025,2024-05-13,Novartis Basel PC,Rock Imager 1000,RI1000-0405,"
+***********************************************************************
+[2024.5.13  Roby Santosa logged 0.5 hours (Remote)]
+check previous error mail, found diag error from May 9th.
+Restart RI and ignore diag error, re-run full diag, successful.
+
+"
+49474,Camera connection failure,2024-05-13,Chugai Pharmaceutical PC,Rock Imager 1000,RI1000-0314,"
+***********************************************************************
+[2024.5.13  Ryoh Kawaharazuka logged 0.5 hours (Remote)]
+Request to Re-start PC.
+Request to re-connect the USB3.0 cable to other USB3.0 port.
+
+"
+49473,RIP not working,2024-05-13,Novartis Basel PC,Rock Imager 1000,RI1000-0405,"
+***********************************************************************
+[2024.5.13  Roby Santosa logged 0.5 hours (Remote)]
+no access to image storage, suggested user to contact their IT team for help.
+
+"
+49472,PM (Depot),2024-08-05,Iowa State University,Mantis,Mantis-1579,
+49471,PM (Depot),2024-08-12,Syngenta,Mantis,Mantis-1578,
+49470,RockMaker 4.7 upgrade,2024-05-10,Arvinas,RockMaker,RockMaker,"
+***********************************************************************
+[2024.5.10  Salman Sarwar logged 3 hours (Remote)]
+I have conducted two sessions for the site. During the first session, Paul was unavailable to take the database backup, so we rescheduled for later that same day. Once the backup was taken, I upgraded to the beta version of Rockmaker V4.7. After the upgrade, the team checked the images, and everything was working. However, they later faced an issue in Rockimager, which Safdar was able to resolve.
+
+"
